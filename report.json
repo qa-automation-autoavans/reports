@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2675000000
+              "duration": 2581000000
             }
           },
           {
@@ -24,7 +24,7 @@
             "name": "user is in home page",
             "result": {
               "status": "passed",
-              "duration": 2208000000
+              "duration": 2697000000
             }
           },
           {
@@ -34,7 +34,7 @@
             "name": "no error toasts should be displayed",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 46000000
             }
           }
         ],
