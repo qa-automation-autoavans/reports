@@ -1,0 +1,125 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "buy-leads-page;verify-opening-buy-offer-link-and-buy-leads-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify opening buy offer link and buy leads page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user clicks on \"Buy leads\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should be redirected to \"ALL_BUY_LEADS_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on active buy offer link button",
+            "result": {
+              "status": "passed",
+              "duration": 6022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user switches to the new tab",
+            "result": {
+              "status": "passed",
+              "duration": 1030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be redirected to \"BUY_OFFER_LINK_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2104000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@buy_leads_page"
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "autoavans---e2e-test-suite-›-buy-leads-page",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Buy Leads Page",
+    "tags": [
+      {
+        "name": "@mode:parallel",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 2
+      },
+      {
+        "name": "@buy_leads_page",
+        "line": 3
+      }
+    ],
+    "uri": "src/tests/features/buy-leads.feature"
+  }
+]
