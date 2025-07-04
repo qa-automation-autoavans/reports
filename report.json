@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2661000000
+              "duration": 2736000000
             }
           },
           {
@@ -24,13 +24,775 @@
             "name": "user is in home page",
             "result": {
               "status": "passed",
-              "duration": 2162000000
+              "duration": 3544000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          },
+          {
+            "name": "@login_test"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"vehicle-search\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify navigating to \"Vehicle Search\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 1957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Vehicle Search\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 1053000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"VEHICLE_SEARCH_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 3619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"valuation-search\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify navigating to \"Valuation Search\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Valuation Search\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"VALUATION_SEARCH_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"vehicle-flow\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Verify navigating to \"Vehicle Flow\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Vehicle Flow\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"VEHICLE_FLOW_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"advertisement-dashboard\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Verify navigating to \"Advertisement Dashboard\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Advertisement Dashboard\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"ADVERTISEMENT_DASHBOARD_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"sales-dashboard\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Verify navigating to \"Sales Dashboard\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Sales Dashboard\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"SALES_DASHBOARD_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"function-test-dashboard\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Verify navigating to \"Function Test Dashboard\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Function Test Dashboard\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"FUNCTION_TEST_DASHBOARD_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"workshop-dashboard\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Verify navigating to \"Workshop Dashboard\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Workshop Dashboard\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"WORKSHOP_DASHBOARD_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"wash-and-clean-dashboard\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Verify navigating to \"Wash and Clean Dashboard\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2808000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Wash and Clean Dashboard\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"WASH_AND_CLEAN_DASHBOARD_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"economy-dashboard\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Verify navigating to \"Economy Dashboard\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Economy Dashboard\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"ECONOMY_DASHBOARD_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"statistics\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Verify navigating to \"Statistics\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Statistics\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"STATISTICS_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 3041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"competitor-sales\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Verify navigating to \"Competitor Sales\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Competitor Sales\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"COMPETITOR_ADVERTISEMENT_DATA_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
             "name": "no error toasts should be displayed",
             "result": {
               "status": "passed",
@@ -47,9 +809,371 @@
           },
           {
             "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"buy-leads\"-page-in-dashboard",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Verify navigating to \"Buy leads\" page in dashboard",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3006000000
+            }
           },
           {
-            "name": "@login_test"
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user clicks on \"Buy leads\" card in home page",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be redirected to \"ALL_BUY_LEADS_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"inventory-database\"-page-in-sidebar",
+        "keyword": "Scenario Outline",
+        "line": 40,
+        "name": "Verify navigating to \"Inventory database\" page in sidebar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 2928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "user navigates to \"Inventory database\" single page",
+            "result": {
+              "status": "passed",
+              "duration": 6444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "user should be redirected to \"INVENTORY_DATABASE_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"new-leads\"-page-in-sidebar",
+        "keyword": "Scenario Outline",
+        "line": 41,
+        "name": "Verify navigating to \"New leads\" page in sidebar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "user navigates to \"New leads\" single page",
+            "result": {
+              "status": "passed",
+              "duration": 5523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "user should be redirected to \"NEW_LEADS_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"inventory-management\"-page---\"all\"-in-sidebar",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Verify navigating to \"Inventory management\" page - \"All\" in sidebar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "user expands \"Inventory management\" dropdown in sidebar",
+            "result": {
+              "status": "passed",
+              "duration": 5210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "user clicks \"All\" in sidebar menu",
+            "result": {
+              "status": "passed",
+              "duration": 5536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "user should be redirected to \"INVENTORY_MANAGEMENT_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;verify-navigating-to-\"spare-parts-inventory-reports\"-page---\"used-spare-parts\"-in-sidebar",
+        "keyword": "Scenario Outline",
+        "line": 53,
+        "name": "Verify navigating to \"Spare parts inventory reports\" page - \"Used spare parts\" in sidebar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "user is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 3087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "user expands \"Spare parts inventory reports\" dropdown in sidebar",
+            "result": {
+              "status": "passed",
+              "duration": 5175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "user clicks \"Used spare parts\" in sidebar menu",
+            "result": {
+              "status": "passed",
+              "duration": 2287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "user should be redirected to \"USED_SPARE_PARTS_PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 2024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "no error toasts should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mode:parallel"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@page_navigation"
           }
         ],
         "type": "scenario"
